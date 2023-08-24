@@ -1,0 +1,236 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+#wrapper{
+    max-width: 970px;
+    max-height: 970px;
+    width: 970px;
+    height: auto;
+    background: transparent;
+}
+#main_1{
+    background: white;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+}
+#h1{
+    background: white;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+#image1 {
+    width: 250px;
+    height: 165px;
+    position: absolute;
+    left: 10px;
+    }
+#text_main_1{
+    height: 40px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+#list_menu{
+    width: 100%;
+    height: 40px;
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    top: 172px;
+}
+
+#list_menu li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 12.5%;
+    height: 30px;
+    margin: 0 auto;
+    margin:-3px;
+    color: #e6e6e6;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 0px;
+
+}
+/*top done*/
+#main_2{
+    /* White background */
+    background: #36477d;
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+}
+
+#box_3{
+    width: 55%;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+#image2{
+    height: 390px;
+    border: 10px solid silver;
+    position: absolute;
+    width: 100%;
+
+}
+#box_4{
+    background: white;
+    width: 40%;
+    height: 410px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    margin: 0 auto;
+}
+#text_box_1{
+    /* done */
+    background: silver;
+    height: 40px;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: bold;
+}
+#text_box_2{
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+}
+#para_1{
+    height:40px;
+    margin: 0 auto;
+    display: block;
+    padding-top:20px;
+    padding-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+#para_2{
+    height:150px;
+    position: absolute;
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+
+
+}
+#button1{
+    height: 25px;
+    margin: 0 auto;
+    text-align: right;
+    font-weight: bold;
+    color: #336699;
+    background: transparent;
+    border: 0px solid transparent;
+    width: 15%;
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+    padding: 5px 5px 0px 0px;
+    font-size: 13px;
+}
+#small_image{
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
+    overflow: visible;
+    padding: 10px 5px 0px 0px;
+}
+#main_3{
+    /* #336699 */
+    background: #36477d;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    position: absolute;
+    top: 660px;
+}
+#footer{
+    /* #336699 */
+    width: 100%;
+    height: 580px;
+    position: relative;
+    top: 20px;
+}
+.bottom-boxes{
+    height: 560px;
+    width: 23%;
+    left: 15px;
+    background:  #ccccff;
+
+    display: inline-block;
+    position: relative;
+    margin-right:10px;
+    margin-left:2px;
+    overflow: hidden;
+
+}
+.box_title{
+
+    height: 35px;
+    width: 100%;
+    background: silver;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-indent: 10px;
+}
+.box_image{
+
+    height: 170px;
+    width: 100%;
+}
+.box_text{
+    font-size:15px;
+    position:relative;
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    padding: 20px 5px 5px 5px;
+}
+.box_button{
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #336699;
+    color: white;
+    border: 4px solid black;
+    width: 45%;
+    position: absolute;
+    right: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
